@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ysabeau+Infant&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.slidebar{
+    background-color: red;
+    width: 10vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+.slidebar nav{
+  padding: 45px;
+}
+
+.slidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px;
+
+}
+.main{
+    background-color: yellow;
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
