@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>
+      Priyanshi Singh - Developer, Programmer and Tech Enthusiast
+    </title>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light mt-2">
+        <a class="navbar-brand" href="#">
+          <img
+            src="nav logo.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="Navbar icon"
+            id="navbar-image"
+          />
+          <span class="orange_text"> P</span>riyanshi
+          <span class="orange_text">S</span>ingh
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            -->
+            <li class="nav-item">
+              <button class="nav-link button" id="toggle-dark-btn">
+                <i class="fa-solid fa-moon mr-1"></i
+                ><span id="dark-text"> Dark Mode</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="display-4 text-center my-3">
+          <span class="orange_text">Hello</span> There!
+        </div>
+        <div class="container">
+          <div class="row aboutRow">
+            <div
+              class="col-lg-6 col-12 col-12 order-sm-2 order-md-1 order-lg-1 my-3 img-container"
+            >
+              <img
+                src="images/aboutMe_photo1.jpg"
+                alt=""
+                class="aboutImg1 img-fluid"
+              />
+            </div>
+            <div
+              class="col-lg-6 col-12 order-sm-1 order-md-2 order-lg-2 my-3 text"
+            >
+              <div class="h3 mb-3 about-text">
+                I am <span class="orange_text">Priyanshi</span> Singh.
+              </div>
+              <div><span id="element-1"></span></div>
+            </div>
+          </div>
+          <div class="row aboutRow">
+            <div
+              class="col-lg-6 col-12 order-sm-2 order-md-1 order-lg-2 my-3 img-container"
+            >
+              <img
+                src="images/aboutMe_photo2.jpg"
+                alt=""
+                class="aboutImg2 img-fluid"
+              />
+            </div>
+            <div
+              class="col-lg-6 col-12 order-sm-1 order-md-2 order-lg-1 my-3 text"
+            >
+              <div class="h3 mb-3 about-text">
+                A <span class="orange_text">Tech Enthusiast.</span>
+              </div>
+              <div><span id="element-2"></span></div>
+            </div>
+          </div>
+          <div class="row aboutRow">
+            <div
+              class="col-lg-6 col-12 order-sm-2 order-md-1 order-lg-1 my-3 img-container"
+            >
+              <img
+                src="about 1.gif"
+                alt=""
+                class="aboutImg3 img-fluid"
+              />
+            </div>
+            <div
+              class="col-lg-6 col-12 order-sm-1 order-md-2 order-lg-2 my-3 text"
+            >
+              <div class="h3 mb-3 about-text">
+                A <span class="orange_text">Problem Solver.</span>
+              </div>
+              <div><span id="element-3"></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="display-4 text-center my-5">
+          <span class="orange_text">Skills </span>&<span class="orange_text">
+            Expertise</span
+          >
+          <div class="lead my-5">Programming Languages</div>
+          <div class="row">
+            
+            <div class="col-12 col-lg-3 col-md-6 my-3 circle-progress-circle">
+              <div class="h5 my-4">SQL</div>
+              <circle-progress
+                value="90"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 my-3">
+              <div class="h5 my-4">Java</div>
+              <circle-progress
+                value="80"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 my-3">
+              <div class="h5 my-4">Python</div>
+              <circle-progress
+                value="75"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 my-3">
+              <div class="h5 my-4">Javascript</div>
+              <circle-progress
+                value="85"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            </div>
+          </div>
+          <div class="lead my-5">Web Development Journey</div>
+          <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 my-3">
+              <div class="h5 my-4">HTML</div>
+              <circle-progress
+                value="95"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 my-3">
+              <div class="h5 my-4">CSS</div>
+              <circle-progress
+                value="90"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 my-3">
+              <div class="h5 my-4">Javascript</div>
+              <circle-progress
+                value="85"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 my-3">
+              <div class="h5 my-4">React JS</div>
+              <circle-progress
+                value="30"
+                max="100"
+                class="progress-cycle"
+              ></circle-progress>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="display-4 text-center">
+        Image <span class="orange_text">Gallery</span>
+        <div class="gallery">
+          <ul class="images">
+            <li class="cardi style1">
+              <img
+                src="images/galleryImage1.jpg"
+                alt="img-text1"
+                id="galImg1"
+              />
+            </li>
+            <li class="cardi style2">
+              <img
+                src="images/galleryImage2.jpg"
+                alt="img-tex2"
+                id="galImg2"
+              />
+            </li>
+            <li class="cardi style3">
+              <img
+                src="images/galleryImage3.jpg"
+                alt="img-text3"
+                id="galImg3"
+              />
+            </li>
+            <li class="cardi style1">
+              <img
+                src="images/galleryImage4.jpg"
+                alt="img-text4"
+                id="galImg4"
+              />
+            </li>
+            <li class="cardi style2">
+              <img
+                src="images/galleryImage5.jpg"
+                alt="img-text5"
+                id="galImg5"
+              />
+            </li>
+            <li class="cardi style3">
+              <img
+                src="images/galleryImage6.jpg"
+                alt="img-text6"
+                id="galImg6"
+              />
+            </li>
+            <li class="cardi style1">
+              <img
+                src="images/galleryImage7.jpg"
+                alt="img-text7"
+                id="galImg7"
+              />
+            </li>
+            <li class="cardi style3">
+              <img
+                src="images/galleryImage8.jpg"
+                alt="img-text8"
+                id="galImg8"
+              />
+            </li>
+            <li class="cardi style2">
+              <img
+                src="images/galleryImage9.jpg"
+                alt="img-text9"
+                id="galImg9"
+              />
+            </li>
+            <li class="cardi style1">
+              <img
+                src="images/galleryImage10.jpg"
+                alt="img-text10"
+                id="galImg10"
+              />
+            </li>
+            <li class="cardi style3">
+              <img
+                src="images/galleryImage11.jpg"
+                alt="img-text11"
+                id="galImg11"
+              />
+            </li>
+            <li class="cardi style1">
+              <img
+                src="images/galleryImage12.jpg"
+                alt="img-text12"
+                id="galImg12"
+              />
+            </li>
+            <li class="cardi style3">
+              <img
+                src="images/galleryImage13.jpg"
+                alt="img-text13"
+                id="galImg13"
+              />
+            </li>
+            <li class="cardi style2">
+              <img
+                src="images/galleryImage14.jpg"
+                alt="img-text14"
+                id="galImg14"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>-->
+    <div class="footer">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div
+          class="col-md-4 d-flex align-items-center"
+          style="margin-left: 7rem"
+        >
+          <span class="mb-3 mb-md-0 text-muted">© Copyright 2023</span>
+        </div>
+        <a class="navbar-brand mx-auto" href="#">
+          <img
+            src="nav logo.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="Navbar icon"
+            id="navbar-image"
+          />
+          <span class="orange_text"> P</span>riyanshi
+          <span class="orange_text">S</span>singh
+        </a>
+        <ul
+          class="nav col-md-4 justify-content-end list-unstyled d-flex ml-5 justify-content-center"
+        >
+          <li class="ms-3">
+            <a href="https://github.com/Prinshi30" target="_blank"
+              ><i class="fa-brands fa-square-github fa-2x mr-4 my-3"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              href="http://www.linkedin.com/in/priyanshi-singh30"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2x mr-4 my-3"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              href="https://www.instagram.com/_its___shi__/"
+              target="_blank"
+              ><i class="fa-brands fa-square-instagram fa-2x mr-4 my-3"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              href="https://www.facebook.com/profile.php?id=100088959936414&ref=xav_ig_profile_web"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook fa-2x mr-4 my-3"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/js-circle-progress/dist/circle-progress.min.js"
+      type="module"
+    ></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element-1", {
+        strings: [
+          "I come from Varanasi,Uttar-Pradesh, and I'm currently in my 3rd year of studying Information Technology at NETAJI SUBHASH ENGINEERING COLLEGE. I absolutely love coding and consider myself an explorer. I'm good at programming in  Java, I've been learning front-end development. I always try my best to become skilled in whatever I do and keep exploring new things in the digital world. Besides coding, I enjoy listening to music and playing the piano. In my free time, I also like playing chess.",
+        ],
+        typeSpeed: 40,
+      });
+      var typed2 = new Typed("#element-2", {
+        strings: [
+          "As a devoted Tech Enthusiast, my passion for all things technological knows no bounds. From the latest advancements in artificial intelligence and virtual reality to the intricacies of programming languages, I am constantly seeking to expand my knowledge and stay at the forefront of innovation. Embracing the ever-evolving world of technology, I thrive on exploring new gadgets, software, and concepts, fueling my curiosity to contribute and shape the digital landscape of the future.",
+        ],
+        typeSpeed: 40,
+      });
+      var typed3 = new Typed("#element-3", {
+        strings: [
+          '"I am a problem solver, a tenacious individual dedicated to unraveling challenges and finding innovative solutions. With a keen analytical mind and a passion for learning, I embrace every obstacle as an opportunity for growth. My adaptability and resourcefulness enable me to tackle complex issues from multiple angles, ensuring that I can overcome barriers and make a positive impact on the world around me"',
+        ],
+        typeSpeed: 40,
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
