@@ -7,4 +7,12 @@
 </p>
 
 
-https://prinshi30.github.io/Portfolio/
+## Live-Demo-
+[Portfolio](https://prinshi30.github.io/Portfolio/)
+<P>
+<img alt =github src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"height="25px"/>
+</P>
+
+## Screenshot-
+![image](https://github.com/Prinshi30/Portfolio/blob/ebf1caa6e4622d23f3e44efdcefceb67d4a3ff6e/portfolio)
+
